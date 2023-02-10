@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["42header"] = {
+    loaded = true,
+    path = "/home/masahitoarai/.local/share/nvim/site/pack/packer/start/42header",
+    url = "https://github.com/42Paris/42header"
+  },
   ["Comment.nvim"] = {
     loaded = true,
     path = "/home/masahitoarai/.local/share/nvim/site/pack/packer/start/Comment.nvim",
@@ -83,6 +88,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/masahitoarai/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  ["c_formatter_42.vim"] = {
+    loaded = true,
+    path = "/home/masahitoarai/.local/share/nvim/site/pack/packer/start/c_formatter_42.vim",
+    url = "https://github.com/cacharle/c_formatter_42.vim"
   },
   ["cmp-buffer"] = {
     loaded = true,
