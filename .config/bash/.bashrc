@@ -118,3 +118,21 @@ fi
 
 export PATH=$PATH:/home/masahitoarai/.local/bin
 export TERM=xterm
+
+
+#C and C++ runs
+cpp-run() {
+    echo "Compiling file..."
+    g++ -o "$1" "$1.cpp"
+    echo "Compiled! Enter input :D"
+    ./"$1"
+}
+# cpp-run filename
+
+c-run() {
+    echo "Compiling file..."
+    gcc -o "$1" "$1.c"
+    echo "Compiled! Enter input :D"
+    ./"$1"
+}
+# c-run filename
